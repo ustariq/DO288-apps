@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source"
 
-cp -f ../index.html ./
+cp -Rf /tmp/src/*.html ./
 
 DATE=$(date +%F)
 
