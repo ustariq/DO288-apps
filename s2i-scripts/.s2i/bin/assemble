@@ -10,9 +10,10 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-
-
-
+DATE=$(date +%F)
+cp -Rf ./index.html ./
+echo "Creating info Page"
+echo "$DATE THIS is INFO PAGE" >> ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
